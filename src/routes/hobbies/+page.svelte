@@ -1,4 +1,5 @@
 <script>
+  import { base } from '$app/paths';
   import Hobby from "$lib/Hobby.svelte";
   import hobbies from "$lib/hobbies.json";
 </script>
@@ -10,10 +11,10 @@
 
 <nav>
   <ul>
-    <li><a href="/">Intro</a></li>
-    <li><a href="/projects"> Glass Blowing Projects</a></li>
-    <li><a href="/hobbies" class="current"> Chinese Calligraphy</a></li>
-    <li><a href="/contact">Contact</a></li>
+    <li><a href="{base}/">Intro</a></li>
+    <li><a href="{base}/projects"> Glass Blowing Projects</a></li>
+    <li><a href="{base}/hobbies" class="current"> Chinese Calligraphy</a></li>
+    <li><a href="{base}/contact">Contact</a></li>
   </ul>
 </nav>
 
