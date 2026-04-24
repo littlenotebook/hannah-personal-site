@@ -28,7 +28,8 @@
     <div class = "intro-image">
         <img
             src="images/hannahpfp.JPG"
-            alt="Profile Image"/>
+            alt="Profile Image">
+            
     </div>
 </div>
 
