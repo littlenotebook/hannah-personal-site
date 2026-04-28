@@ -246,12 +246,12 @@ p {
 
   /* on mobile just show one card at a time */
   .slot.center {
-    width: 90vw;
+    width: 80vw;
   }
 
   .slot.half-left,
   .slot.half-right {
-    width: 5vw;
+    width: 10vw;
     opacity: 0.3;
   }
 
@@ -264,10 +264,9 @@ p {
   }
 
   h1 {
-    font-size: 0.5rem;
+    font-size: 1.2rem;
     margin: 0.5rem 0 0.25rem;
-    line-height: 0.7;
-    letter-spacing: -1px;
+    letter-spacing: -0.5px;
   }
   p {
     line-height: 1.6;
