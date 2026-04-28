@@ -238,35 +238,35 @@ p {
   margin-left: 0;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 480px) {
   .carousel-page {
     height: auto;
-    min-height: 100dvh; /* dvh accounts for mobile browser chrome */
+    min-height: 100dvh;
   }
 
-  /* on mobile just show one card at a time */
   .slot.center {
-    width: 70vw;
+    width: 80vw;
+  }
+
+  .slot.side {
+    width: 60vw;
+    opacity: 0.5;
   }
 
   .slot.half-left,
   .slot.half-right {
-    width: 15vw;
+    width: 5vw;
     opacity: 0.3;
   }
 
   .slot.half-left :global(article),
   .slot.half-right :global(article) {
-    width: 30vw; /* twice the slot width so exactly half is visible */
+    width: 60vw;
   }
 
   h1 {
     font-size: 1.8rem;
     margin: 0.5rem 0 0.25rem;
-  }
-  p {
-    line-height: 0.5;
-    font-size: 0.85rem;
   }
 
   .controls {
