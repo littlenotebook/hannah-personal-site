@@ -246,12 +246,7 @@ p {
 
   /* on mobile just show one card at a time */
   .slot.center {
-    width: 80vw;
-  }
-
-  .slot.side {
-    width: 60vw;
-    opacity: 0.5;
+    width: 90vw;
   }
 
   .slot.half-left,
@@ -260,9 +255,12 @@ p {
     opacity: 0.3;
   }
 
-  .slot.half-left :global(article),
+  .slot.half-left :global(article) {
+    margin-left: auto;
+  }
+
   .slot.half-right :global(article) {
-    width: 60vw;
+    margin-left: 0;
   }
 
   h1 {
