@@ -246,30 +246,27 @@ p {
 
   /* on mobile just show one card at a time */
   .slot.center {
-    width: 80vw;
+    width: 70vw;
   }
 
   .slot.half-left,
   .slot.half-right {
-    width: 10vw;
+    width: 15vw;
     opacity: 0.3;
   }
 
-  .slot.half-left :global(article) {
-    margin-left: auto;
-  }
-
+  .slot.half-left :global(article),
   .slot.half-right :global(article) {
-    margin-left: 0;
+    width: 30vw; /* twice the slot width so exactly half is visible */
   }
 
   h1 {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     margin: 0.5rem 0 0.25rem;
-    letter-spacing: -0.5px;
   }
   p {
-    line-height: 1.6;
+    line-height: 0.5;
+    font-size: 0.85rem;
   }
 
   .controls {
