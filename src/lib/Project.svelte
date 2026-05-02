@@ -27,7 +27,7 @@
 
   article.featured {
     transform: translateY(-12px) scale(1.04);
-    box-shadow: 0 16px 48px rgba(58, 186, 237, 0.28), 0 4px 16px rgba(0,0,0,0.10);
+    box-shadow: 0 16px 48px rgba(153, 155, 155, 0.28), 0 4px 16px rgba(0,0,0,0.10);
     z-index: 2;
     position: relative;
   }

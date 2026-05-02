@@ -56,7 +56,7 @@
   </ul>
 </nav>
 
-<div class="page-content">
+<!-- <div class="page-content">
   <div class="intro-container">   
 
       <div class = "intro-text">
@@ -70,6 +70,25 @@
               
       </div>
   </div>
+</div> -->
+
+<!-- <hr> -->
+<div class="wave-container">
+ <div class="page-content">
+  <div class="intro-container">   
+
+      <div class = "intro-text">
+          <h1>Hannah Han</h1>
+          <p> MIT Undergraduate &middot Glass Blowing Student in MIT Glass Lab &middot Chinese Calligraphy &middot Chinese Traditional Dance</p>
+      </div>
+      <div class = "intro-image">
+          <img
+              src="images/hannahpfp.JPG"
+              alt="Profile Image">
+              
+      </div>
+  </div>
+</div>
 </div>
 
 <section class="carousel-page">
